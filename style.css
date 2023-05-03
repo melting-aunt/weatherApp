@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:rgb(170, 191, 253);
+}
+
+.card {
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(to right, rgb(80, 84, 194), rgb(55, 12, 124));
+    color:black;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 40px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.search input {
+    border: 0;
+    padding: 2%;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 10px;
+    flex: 1;
+    margin-right: 5px;
+    width: 250px;
+}
+
+.search button {
+    border: 0;
+    background: white;
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+}
+
+.search button img {
+    width: 23px;
+}
+
+.search button:hover {
+    background: rgb(245, 221, 43);
+    cursor: grab;
+}
+
+.weather-icon {
+    width: 150px;
+    margin-top: 30px;
+}
+
+.weather h1 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 10px;
+    color: white;
+}
+.weather h2 {
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+}
+.weather h3 {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img {
+    width: 60px;
+    margin-right: 10px;
+    color: white;
+}
+
+.humidity, .wind {
+    font-size: 22px;
+    color: white;
+}
+
+.categories {
+    color: white;
+}
+
+.weather {
+    display: none;
+}
+
+.error-message {
+    display: flex;
+    color:antiquewhite;
+    float: center;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.error-icon {
+    width: 80px;
+}
+
+.error {
+    display: none;
+}
